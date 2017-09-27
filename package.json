@@ -5,18 +5,20 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "0.8.5",
-    "body-parser": "1.15.0",
+    "body-parser": "1.18.2",
     "connect-redis": "3.0.2",
     "cookie-parser": "1.4.1",
-    "express": "4.13.4",
-    "express-session": "1.13.0",
+    "express": "4.15.5",
+    "express-session": "1.15.6",
     "jackrabbit": "4.3.0",
     "jade": "1.11.0",
     "mongoose": "4.4.7",
@@ -25,7 +27,9 @@
     "passport": "0.3.2",
     "passport-local": "1.0.0",
     "redis": "2.5.0-1",
-    "serve-static": "1.10.2",
-    "stylus": "0.54.2"
-  }
+    "serve-static": "1.12.6",
+    "stylus": "0.54.2",
+    "snyk": "^1.41.1"
+  },
+  "snyk": true
 }
