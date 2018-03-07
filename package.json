@@ -19,7 +19,7 @@
     "express-session": "1.13.0",
     "jackrabbit": "4.3.0",
     "jade": "1.11.0",
-    "mongoose": "4.4.7",
+    "mongoose": "4.7.6",
     "mongoose-utils": "0.0.2",
     "morgan": "1.7.0",
     "passport": "0.3.2",
